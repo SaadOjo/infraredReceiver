@@ -16,11 +16,13 @@ myReciever.init();
 
 ## Library Methods
 
-to detect the signal:
+**to detect the signal:**
+
+detect functions returns 0 when no signal is detected
+returns non zero values for other signal types
+
 ```
 myReciever.detect(); // must be called on each loop
 ```
-detect functions returns 0 when no signal is detected
-returns non zero values for other signal types
-```
+
 
